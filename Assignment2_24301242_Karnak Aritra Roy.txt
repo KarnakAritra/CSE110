@@ -1,0 +1,391 @@
+//Task1
+(a) hungry  - is a legal identifier .
+(b)2AB - is not a legal identifier because no number can precede at the beginning.
+(c)312.2 - is not a legal identifier because variable name doesn't contain fractional number.
+(d)MOBILE - is a legal identifier.
+(e)"Ans" -is not a legal identifier beacuse it contains quotation.
+(f)$30 - is a legal identifier 
+(g)Yes/No -is not a legal identifier because it has "/" .
+(h)student-id - is not a legal identifier because of the "-" .A "_" is expected there.
+(i)A+3 - is not a legal identifier because of the usage of "+"
+(j)'X' - is not a legal identifier because of the quotaion sign.
+(k)return - is not a legal identifier because it is a reserved keyword.
+
+
+
+
+
+//Task2
+
+ //Task2.1
+public class Task2{
+  public static void main(String[]args){
+    int a=20;
+    System.out.println(a);
+  
+  }
+}
+
+//Task2.2
+public class Task2{
+  public static void main(String[]args){
+    int a=20;
+    int b=10;
+    int sum=a+b;
+
+    System.out.println(sum);
+  
+  }
+}
+
+//Task2.3
+public class Task2{
+  public static void main(String[]args){
+    int a=20;
+    int b=10;
+    int pro=a*b;
+    int div=a/b;
+    
+
+    System.out.println("Product="+pro);
+    System.out.println("Division="+div);
+  
+  }
+}
+
+//Task2.4
+public class Task2{
+  public static void main(String[]args){
+    double a=20.0;
+    System.out.println(a);
+
+    double b=0.12;
+    double sum=a+b;
+    System.out.println("Sum="+sum);
+
+    double pro=a*b;
+    double div=a/b;
+    
+    System.out.println("Product="+pro);
+    System.out.println("Division="+div);
+  
+  }
+}
+
+//Task2.5
+public class Task2{
+  public static void main(String[]args){
+    int a=20;
+    System.out.println(a);
+
+    double b=0.6;
+    double sum=a+b;
+    System.out.println("Sum="+sum);
+
+    double pro=a*b;
+    double div=a/b;
+    
+    System.out.println("Product="+pro);
+    System.out.println("Division="+div);
+  
+  }
+}
+
+//Task2.6
+public class Task2{
+  public static void main(String[]args){
+    String a="abc6";
+    System.out.println(a);
+
+    String b="defg";
+    String sum=a+b;
+    System.out.println("Sum="+sum);
+
+    
+  }
+}
+
+//if the first variable is int and second one is String then the code would be
+public class Task2{
+  public static void main(String[]args){
+    int a=6;
+    System.out.println(a);
+
+    String b="defg";
+    String sum=a+b;
+    System.out.println("Sum="+sum);
+
+    
+  }
+}
+
+//if the first variable is String and second one is int then the code would be
+public class Task2{
+  public static void main(String[]args){
+    String a="defg";
+    System.out.println(a);
+
+    int b=6;
+    String sum=a+b;
+    System.out.println("Sum="+sum);
+
+    
+  }
+}
+
+
+//Task3
+import java.lang.Math;
+public class Task3{
+public static void main(String[]args){
+
+int radius=4;
+double circumference=2*Math.PI*radius;
+double area=Math.PI* Math.pow(radius,2);
+
+System.out.println("CIRCUMFERENCE="+circumference);
+System.out.println("AREA="+area);
+
+  }
+}
+
+
+
+
+//Task4
+public class Task4{
+public static void main(String[]args){
+
+int n=1234;
+int last_2_digits=n%100;
+System.out.println("LAST TWO DIGITS="+last_2_digits);
+
+  }
+}
+
+
+
+//Task5
+public class Task5{
+public static void main(String[]args){
+
+double inches=1000;
+double meters=.0254;
+double inches_to_meter=inches*meters;
+System.out.println("1000 inch is "+inches_to_meter+" meters");
+
+  }
+}
+
+
+
+
+//Task6 (a)
+public class Task6a{
+  public static void main(String[]args){
+  
+   int a =12;
+   int b=10;
+   int temp=a;
+    a=b;
+    b=temp;
+
+ 
+    System.out.println(a);
+    System.out.println(b);
+    }
+  }
+  
+  
+//(b)
+public class Task6b{
+  public static void main(String[]args){
+  
+   int a =12;
+   int b=10;
+   
+
+ 
+    System.out.println(a-2);
+    System.out.println(b+2);
+    }
+  }
+  
+
+
+
+
+
+//Task7
+public class Task7{
+public static void main(String[]args){
+
+  
+  int mins_num=3456789;
+
+  
+  int year=(mins_num/1440)/365;
+  int days=(mins_num/1440)%365;
+
+  System.out.print("3456789 minutes is approximately "+year+" and "+days+" days");
+  
+
+ }
+}
+
+
+
+
+//Task8
+public class Task8{
+public static void main(String[]args){
+
+  int a=2;
+  int b=5;
+  int c=8;
+
+  int d=(2*b*(c-a)/3)+7;
+  System.out.println("Answer:"+d);
+  
+  
+  }
+}
+
+
+
+
+//Task9
+public class Task9{
+public static void main(String[]args){
+
+ int n=5;
+  int product1=n*1;
+  int product2=n*2;
+  int product3=n*3;
+  int product4=n*4;
+  int product5=n*5;
+  int product6=n*6;
+  int product7=n*7;
+  int product8=n*8;
+  int product9=n*9;
+  int product10=n*10;
+
+  System.out.println(n+"X1="+product1);
+  System.out.println(n+"X2="+product2);
+  System.out.println(n+"X3="+product3);
+  System.out.println(n+"X4="+product4);
+  System.out.println(n+"X5="+product5);
+  System.out.println(n+"X6="+product6);
+  System.out.println(n+"X7="+product7);
+  System.out.println(n+"X8="+product8);
+  System.out.println(n+"X9="+product9);
+  System.out.println(n+"X10="+product10);
+  
+  
+  }
+}
+
+
+
+
+//Task10
+public class Task10{
+public static void main(String[]args){
+
+ int firstTerm=1;
+ int lastTerm=100;
+ int number_of_terms=100;
+
+ int sum=number_of_terms/2*(firstTerm+lastTerm);
+ System.out.println("THE SUM OF FIRST 100 NUMBERS IS ="+sum);  
+  
+  }
+}
+
+
+
+
+//Task11
+import java.lang.Math;
+public class Task11{
+public static void main(String[]args){
+
+double a=4.5f;
+double b=9.5f;
+double c=Math.sqrt(Math.pow(4.5,2)+Math.pow(9.5,2));
+
+double sinA=a/c;
+double cosA=b/c;
+System.out.printf("sinA=%.3f \n",sinA);
+System.out.printf("cosA=%.3f \n",cosA);
+
+double sinB=b/c;
+double cosB=a/c;
+System.out.printf("sinB=%.3f \n",sinB);
+System.out.printf("cosB=%.3f",cosB);
+
+  }
+}
+
+
+
+
+//Task12
+public class Task12{
+  public static void main(String[]args){
+  
+   int student_id=24301242;
+   int last2digit=student_id%100;
+   
+  
+   int newlastdigit=last2digit%10;
+   int new2ndlastdigit=last2digit/10;
+   System.out.println(newlastdigit);
+   System.out.println(new2ndlastdigit);
+  
+    }
+  }
+
+
+
+
+//Task13
+public class Task13{
+public static void main(String[]args){
+
+ double totalTime_in_hour=5.0+(((56.0*60.0)+23.0)/3600.0);
+ double distance_in_km=1242.0/1000.0;
+ double distance_in_miles=1242.0/1609.0;
+
+ double kmPerHour=distance_in_km/totalTime_in_hour;
+ double milePerHour=distance_in_miles/totalTime_in_hour;
+
+ System.out.printf("Your velocity in km/h is %.7f \n",kmPerHour);
+ System.out.printf("Your velocity in miles/h is %.7f ",milePerHour);
+
+
+
+
+  }
+}
+
+
+
+
+//Task14
+import java.lang.Math;
+public class Task14{
+  public static void main(String[]args){
+  
+   double one_side_ofHexagon= Math.sqrt(Math.pow((8/2), 2)+Math.pow(3, 2));
+   double circumference=6*one_side_ofHexagon;
+   double area=(3*Math.sqrt(3)*Math.pow(one_side_ofHexagon,2))/2;
+   System.out.println("circumference="+circumference);
+   System.out.println("area="+area);
+  
+    }
+  }
+  
+
+
+
